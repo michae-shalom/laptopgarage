@@ -1,0 +1,25 @@
+.landing {
+    text-align: center;
+    padding: 50px;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: white;
+}
+
+.landing h1 {
+    font-size: 2.5rem;
+}
+
+.landing .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #f39c12;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.landing .btn:hover {
+    background: #e67e22;
+}

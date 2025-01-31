@@ -1,0 +1,19 @@
+.listings {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+ }
+ 
+ .product-card {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #ddd;
+    padding: 10px;
+    transition: transform 0.2s;
+ }
+ 
+ .product-card:hover {
+    transform: scale(1.05);
+ }
+ 
