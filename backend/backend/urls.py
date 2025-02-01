@@ -14,9 +14,26 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+
+# from django.contrib import admin
+# from django.urls import path, include
+
+# urlpatterns = [
+#     path('admin/', admin.site.urls),
+#     path('api/', include('shop.urls')),
+# ]
+
+
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from django.http import JsonResponse
+
+# Simple JSON response for the root URL
+def home(request):
+    return JsonResponse({"message": "Welcome to LaptopGarage API. Use /api/products/ to get products."})
 
 urlpatterns = [
+    path('', home),  # Serves a JSON message for the root path
     path('admin/', admin.site.urls),
+    path('api/', include('shop.urls')),  # Ensure your API routes are under /api/
 ]
