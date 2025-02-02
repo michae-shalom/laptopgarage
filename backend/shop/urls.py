@@ -11,8 +11,9 @@
 
 
 from django.urls import path
-from .views import get_products
+from .views import get_products, get_product_detail
 
 urlpatterns = [
     path('products/', get_products, name='get_products'),
+    path("api/products/<int:product_id>/", get_product_detail, name="product-detail"),
 ]
