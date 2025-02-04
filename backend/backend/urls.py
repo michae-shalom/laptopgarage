@@ -24,9 +24,26 @@ Including another URLconf
 # ]
 
 
+# from django.contrib import admin
+# from django.urls import path, include
+# from django.http import JsonResponse
+
+# # Simple JSON response for the root URL
+# def home(request):
+#     return JsonResponse({"message": "Welcome to LaptopGarage API. Use /api/products/ to get products."})
+
+# urlpatterns = [
+#     path('', home),  # Serves a JSON message for the root path
+#     path('admin/', admin.site.urls),
+#     path('api/', include('shop.urls')),  # Ensure your API routes are under /api/
+# ]
+
+
 from django.contrib import admin
 from django.urls import path, include
 from django.http import JsonResponse
+from django.conf import settings
+from django.conf.urls.static import static  # ✅ Import for serving media files
 
 # Simple JSON response for the root URL
 def home(request):
@@ -37,3 +54,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/', include('shop.urls')),  # Ensure your API routes are under /api/
 ]
+
+# ✅ Serve media files in development
+if settings.DEBUG:
+    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
