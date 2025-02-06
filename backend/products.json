@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Apple MacBook Pro 16",
+        "price": 2499,
+        "description": "A powerful MacBook Pro with the M3 Pro chip, 32GB RAM, and 1TB SSD storage.",
+        "image": "https://via.placeholder.com/300x200?text=MacBook+Pro"
+    },
+    {
+        "name": "Dell XPS 15",
+        "price": 1899,
+        "description": "A premium ultrabook with a 15.6-inch 4K OLED display and Intel Core i9 processor.",
+        "image": "https://via.placeholder.com/300x200?text=Dell+XPS+15"
+    },
+    {
+        "name": "HP Spectre x360",
+        "price": 1499,
+        "description": "A sleek convertible laptop with a 13.3-inch OLED touchscreen and Intel Evo certification.",
+        "image": "https://via.placeholder.com/300x200?text=HP+Spectre+x360"
+    },
+    {
+        "name": "Lenovo ThinkPad X1 Carbon",
+        "price": 1799,
+        "description": "A business-class laptop with a lightweight design, Intel Core processor, and 4G LTE.",
+        "image": "https://via.placeholder.com/300x200?text=ThinkPad+X1+Carbon"
+    },
+    {
+        "name": "Asus ROG Strix G16",
+        "price": 1599,
+        "description": "A gaming laptop with an NVIDIA RTX 4070 GPU and a high-refresh-rate 16-inch display.",
+        "image": "https://via.placeholder.com/300x200?text=Asus+ROG+Strix+G16"
+    },
+    {
+        "name": "Samsung Galaxy S24 Ultra",
+        "price": 1299,
+        "description": "A flagship smartphone with a 200MP camera, Snapdragon 8 Gen 3, and 1TB storage.",
+        "image": "https://via.placeholder.com/300x200?text=Galaxy+S24+Ultra"
+    },
+    {
+        "name": "iPhone 15 Pro Max",
+        "price": 1199,
+        "description": "Apple's latest flagship phone with a titanium frame, A17 Pro chip, and 5x zoom.",
+        "image": "https://via.placeholder.com/300x200?text=iPhone+15+Pro+Max"
+    },
+    {
+        "name": "Google Pixel 8 Pro",
+        "price": 999,
+        "description": "A premium smartphone with AI-enhanced photography and Google's Tensor G3 chip.",
+        "image": "https://via.placeholder.com/300x200?text=Pixel+8+Pro"
+    },
+    {
+        "name": "OnePlus 12",
+        "price": 899,
+        "description": "A high-performance smartphone with 16GB RAM, 512GB storage, and 120Hz AMOLED display.",
+        "image": "https://via.placeholder.com/300x200?text=OnePlus+12"
+    },
+    {
+        "name": "Samsung Galaxy Z Fold 5",
+        "price": 1799,
+        "description": "A foldable smartphone with a 7.6-inch AMOLED inner display and multitasking features.",
+        "image": "https://via.placeholder.com/300x200?text=Galaxy+Z+Fold+5"
+    },
+    {
+        "name": "Apple iPad Pro 12.9",
+        "price": 1299,
+        "description": "A high-end tablet with an M2 chip, mini-LED display, and Apple Pencil support.",
+        "image": "https://via.placeholder.com/300x200?text=iPad+Pro+12.9"
+    },
+    {
+        "name": "Samsung Galaxy Tab S9 Ultra",
+        "price": 1199,
+        "description": "A massive 14.6-inch AMOLED tablet with Snapdragon 8 Gen 2 and S Pen support.",
+        "image": "https://via.placeholder.com/300x200?text=Galaxy+Tab+S9+Ultra"
+    },
+    {
+        "name": "Microsoft Surface Pro 9",
+        "price": 999,
+        "description": "A 2-in-1 tablet with a 13-inch display, Intel i7 processor, and detachable keyboard.",
+        "image": "https://via.placeholder.com/300x200?text=Surface+Pro+9"
+    },
+    {
+        "name": "Apple Watch Series 9",
+        "price": 499,
+        "description": "A smartwatch with advanced health tracking, crash detection, and a brighter display.",
+        "image": "https://via.placeholder.com/300x200?text=Apple+Watch+9"
+    },
+    {
+        "name": "Samsung Galaxy Watch 6 Classic",
+        "price": 399,
+        "description": "A premium smartwatch with a rotating bezel and advanced fitness tracking.",
+        "image": "https://via.placeholder.com/300x200?text=Galaxy+Watch+6+Classic"
+    },
+    {
+        "name": "Garmin Fenix 7X",
+        "price": 799,
+        "description": "An ultra-durable GPS smartwatch with solar charging and advanced training features.",
+        "image": "https://via.placeholder.com/300x200?text=Garmin+Fenix+7X"
+    },
+    {
+        "name": "Rolex Submariner",
+        "price": 9999,
+        "description": "A luxury diving watch with a timeless design and automatic movement.",
+        "image": "https://via.placeholder.com/300x200?text=Rolex+Submariner"
+    },
+    {
+        "name": "Casio G-Shock GA2100",
+        "price": 149,
+        "description": "A rugged and stylish digital-analog watch with shock resistance.",
+        "image": "https://via.placeholder.com/300x200?text=Casio+G-Shock"
+    },
+    {
+        "name": "Sony PlayStation 5",
+        "price": 499,
+        "description": "The latest gaming console with ray tracing, fast SSD, and 4K gaming.",
+        "image": "https://via.placeholder.com/300x200?text=PS5"
+    },
+    {
+        "name": "Xbox Series X",
+        "price": 499,
+        "description": "A next-gen gaming console with 12TFLOPS GPU power and Game Pass support.",
+        "image": "https://via.placeholder.com/300x200?text=Xbox+Series+X"
+    }
+]

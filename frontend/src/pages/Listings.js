@@ -50,7 +50,7 @@ const Listings = () => {
     return (
         <div className="listings-container">
             <h2>Available Products</h2>
-            <div className="product-list">
+            <div className="product-container">
                 {products.length > 0 ? (
                     products.map((product) => <ProductCard key={product.id} product={product} />)
                 ) : (

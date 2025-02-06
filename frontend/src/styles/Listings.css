@@ -1,4 +1,4 @@
-.listings {
+/* .listings {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
@@ -16,4 +16,33 @@
  .product-card:hover {
     transform: scale(1.05);
  }
- 
+  */
+
+
+  /* Listings.css */
+.listings-container {
+   text-align: center;
+   padding: 20px;
+}
+
+/* Grid for product cards */
+.product-list {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));  /* Adjusts dynamically */
+   gap: 20px;
+   justify-content: center;
+   padding: 20px;
+}
+
+/* Ensures responsiveness */
+@media (min-width: 1024px) {  /* Laptops: 3 columns */
+   .product-list {
+       grid-template-columns: repeat(3, 1fr);
+   }
+}
+
+@media (max-width: 768px) {  /* Tablets & Phones: 2 columns */
+   .product-list {
+       grid-template-columns: repeat(2, 1fr);
+   }
+}
